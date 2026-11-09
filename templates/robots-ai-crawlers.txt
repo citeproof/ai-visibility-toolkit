@@ -1,0 +1,42 @@
+# robots.txt rules for AI crawlers
+# Check each vendor's documentation for the current list of user agents.
+#
+# Search / answer crawlers: fetch pages so they can be cited in AI search answers.
+# Blocking these makes it unlikely your pages are cited by that engine.
+#
+# Training crawlers: collect data for model training. You can block these
+# and still allow the search crawlers.
+
+# --- OpenAI ---
+# OAI-SearchBot: ChatGPT search results
+User-agent: OAI-SearchBot
+Allow: /
+
+# GPTBot: model training (change to Disallow: / to opt out)
+User-agent: GPTBot
+Allow: /
+
+# --- Anthropic ---
+# Claude-SearchBot: Claude search results
+User-agent: Claude-SearchBot
+Allow: /
+
+# ClaudeBot: model training (change to Disallow: / to opt out)
+User-agent: ClaudeBot
+Allow: /
+
+# --- Perplexity ---
+User-agent: PerplexityBot
+Allow: /
+
+# --- Google ---
+# Google-Extended controls use of your content for Gemini training.
+# It does not affect Google Search or AI Overviews (those use Googlebot).
+User-agent: Google-Extended
+Allow: /
+
+# --- Everyone else ---
+User-agent: *
+Allow: /
+
+Sitemap: https://example.com/sitemap.xml
