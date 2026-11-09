@@ -1,0 +1,21 @@
+# Example Co
+
+> Example Co makes invoicing software for freelancers and small agencies. Plans start at $12/month.
+
+Example Co sends invoices, tracks payments and reminds clients automatically. It works in 30 currencies and connects to Stripe and PayPal.
+
+## Product
+
+- [How it works](https://example.com/how-it-works): setup in three steps, from first invoice to payment
+- [Pricing](https://example.com/pricing): three plans, monthly or annual billing
+- [Integrations](https://example.com/integrations): Stripe, PayPal, Xero, QuickBooks
+
+## Guides
+
+- [How to write an invoice](https://example.com/guides/write-an-invoice): what to include, with a free template
+- [Late payment reminders](https://example.com/guides/late-payments): wording and timing that work
+
+## Optional
+
+- [Changelog](https://example.com/changelog): product updates
+- [About](https://example.com/about): team and contact
